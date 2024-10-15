@@ -1,0 +1,201 @@
+body{
+  margin: 0%;
+  background-color: aquamarine;
+}
+#logo{
+  width:160px;
+  height:80px;
+  margin:10px;
+}
+
+.LOGOHOLDER{
+  WIDTH:30%;
+  
+}
+nav{
+  display: flex;
+  background-color: rgb(39, 39, 39);
+  box-shadow: 0 5px 15px rgb(244, 245, 244);
+  align-items: center;
+  position:relative;
+}
+
+nav li{
+  list-style-type: none;
+}
+#Companydetails{
+  display:flex;
+  width: 70%;
+  justify-content:flex-end;
+}
+
+#Companydetails a{
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 80px;
+  letter-spacing: 0.1rem;
+}
+
+
+
+#banner img{
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  margin-top: 5px;
+}
+.projectexamples {
+display:flex;
+justify-content: center;
+background-color: rgb(229, 245, 9);
+box-shadow: 0 5px 15px rgb(244, 245, 244);
+margin-left: 5px;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+.imagepreview{
+  position: absolute;
+  top: 810px; /* Adjust as needed */
+  left: 30%; /* Adjust as needed */
+  display: none;
+  z-index: 1;
+}
+
+.projectexamples :hover .imagepreview{
+  display: block;
+}
+
+.imagepreview img {
+  border: 2px solid #ccc; /* Add border for better visibility */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+  
+}
+.contactinfo{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: flex;
+  font-size: xx-large;
+  border-radius:  10px;
+  margin: 10px;
+  background-color: black;
+  color: beige;
+}
+#body2{
+  background-color: azure;
+  
+}
+#email{
+  width: 50%;
+  padding: 5%;
+}
+#phoneno{
+  width: 50%;
+  padding: 5%;
+}
+footer{
+  background-color: black;
+  color: white;
+  align-items: center;
+  height: 30px;
+  display: flex;
+  font-family: Arial;
+  justify-content: center;
+}
+
+.Description{
+  display: flex;
+}
+
+#info{
+  width: 40%;
+ padding: 10px 60px;
+}
+
+#services{
+  width: 60%;
+  padding: 10px 60px;
+}
+
+#info> p{
+  border-radius:5px;
+  font-size: 1.1rem ;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1) ;
+  background-color:aquamarine;
+  text-align:center ;
+  border: 2px solid black ;
+  letter-spacing: 1px;
+  line-height: 1.2 ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  color: black;
+  border-radius: 8px;
+  position: relative;
+}
+
+#services> table{
+  border-collapse:collapse ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr.tableheader th{
+  text-align: left;
+  padding: 1rem 0 1rem 1rem;
+}
+
+caption{
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+tr.tablebody td:first-of-type{
+  vertical-align: top;
+}
+
+td{
+  vertical-align: top;
+  padding: 1rem;
+}
+
+.rowcolor{
+  background-color: yellow;
+}
+
+.rowcolor:hover{
+  background-color: aquamarine;
+}
+
+.rowcolor2:hover{
+  background-color: aquamarine;
+} 
+
+.tabledescription{
+  text-align: justify;
+}
+
+
+.videos{
+  background-color: rgb(16, 16, 15); 
+
+  display:flex;
+
+.vid{
+  padding: 1rem;
+  box-shadow: 1rem;
+  height: 400px;
+  width:33%;
+}
+  
+}
+#viddescrip{
+  padding: 10%;
+}
+button{
+  justify-items: center;
+  border: solid 2px;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  border-radius: 2px;
+}
